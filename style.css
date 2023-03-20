@@ -10,9 +10,18 @@ body, html{
 }
 
 h1{
-    font-size:3rem;
+    font-size:70px;
     color:rgb(100, 99, 99);
+    transition: all 1s
     /* width:20rem; */
+}
+
+h1:hover{
+    background-color: rgb(148, 35, 0);
+    border-top: 10px solid gray;
+    border-bottom:10px solid gray;
+    color: beige;
+    /* border-radius: 300px; */
 }
 
 hr{
@@ -31,7 +40,7 @@ hr{
 .btn-secondary{
     background-color: beige;
     border-color: beige;
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 
 .btn-secondary:hover{
@@ -43,3 +52,4 @@ hr{
     color:black;
     padding: 1rem 3rem;
 }
+
